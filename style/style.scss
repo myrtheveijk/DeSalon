@@ -1,0 +1,112 @@
+//------------ Kapper De Salon ------------//
+
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans&display=swap');
+
+//------------ Variabelen ------------//
+
+$sm:        (min-width : 768px);
+$md:        (min-width : 992px);
+$lg:        (min-width : 1200px);
+
+$primary-color:     #707070; /*Beige*/
+$secondairy-color:  #EDD940; /*Geel*/
+$tertiaire-color:   #1E1E1E; /*Grijs*/
+
+$font-title:    'Great Vibes', cursive;
+$font-standard: 'Open Sans', sans-serif;
+
+//------------ Body ------------//
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-standard;
+  color: $primary-color;
+}
+
+h1 {
+  text-align: center;
+  font-family: $font-title;
+  font-size: 4em;
+  padding: 50px;
+}
+
+//------------ Nav ------------//
+
+.nav-link {
+    color: $primary-color !important;
+    font-weight: bold; 
+     
+    &:hover {
+      border-bottom: 3px solid $secondairy-color;
+    }
+}
+
+.btn-link {
+  background: transparent !important;
+  border: none !important;
+  color: $primary-color !important;
+  font-weight: bold; 
+   
+  &:hover {
+    border-bottom: 3px solid $secondairy-color !important;
+  }
+} 
+
+#signup-btn {
+  text-decoration: none !important;
+}
+
+.bg-header {
+  min-height: 500px;
+  background-image: url('../images/hairdresser.jpg');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    background: $secondairy-color;
+  }
+}
+
+.btn-primary {
+  font-weight: bold;
+  color: $secondairy-color !important;;
+  background: $primary-color !important;
+  border-color: $primary-color !important;
+  &:hover {
+    color: $primary-color !important;
+    background: $secondairy-color !important;
+    border-color: $secondairy-color !important;
+  }
+}
+
+.btn-info {
+  font-weight: bold;
+  color: $primary-color !important;
+  background: $secondairy-color !important;
+  border-color: $secondairy-color !important;
+  &:hover {
+    color: $secondairy-color !important;;
+    background: $primary-color !important;
+    border-color: $primary-color !important;
+  }
+}
+
+.btn-danger {
+  font-weight: bold;
+  color: $tertiaire-color !important;
+  background: $primary-color !important;
+  border-color: $primary-color !important;
+  &:hover {
+    color: $primary-color !important;;
+    background: $tertiaire-color !important;
+    border-color: $tertiaire-color !important;
+  }
+}
+
+footer {
+  background: $tertiaire-color;
+}

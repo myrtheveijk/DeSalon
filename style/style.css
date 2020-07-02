@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans&display=swap");
+/*Beige*/
+/*Geel*/
+/*Grijs*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  color: #707070;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Great Vibes", cursive;
+  font-size: 4em;
+  padding: 50px;
+}
+
+.nav-link {
+  color: #707070 !important;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #EDD940;
+}
+
+.btn-link {
+  background: transparent !important;
+  border: none !important;
+  color: #707070 !important;
+  font-weight: bold;
+}
+
+.btn-link:hover {
+  border-bottom: 3px solid #EDD940 !important;
+}
+
+#signup-btn {
+  text-decoration: none !important;
+}
+
+.bg-header {
+  min-height: 500px;
+  background-image: url("../images/hairdresser.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bg-header h1 {
+  background: #EDD940;
+}
+
+.btn-primary {
+  font-weight: bold;
+  color: #EDD940 !important;
+  background: #707070 !important;
+  border-color: #707070 !important;
+}
+
+.btn-primary:hover {
+  color: #707070 !important;
+  background: #EDD940 !important;
+  border-color: #EDD940 !important;
+}
+
+.btn-info {
+  font-weight: bold;
+  color: #707070 !important;
+  background: #EDD940 !important;
+  border-color: #EDD940 !important;
+}
+
+.btn-info:hover {
+  color: #EDD940 !important;
+  background: #707070 !important;
+  border-color: #707070 !important;
+}
+
+.btn-danger {
+  font-weight: bold;
+  color: #1E1E1E !important;
+  background: #707070 !important;
+  border-color: #707070 !important;
+}
+
+.btn-danger:hover {
+  color: #707070 !important;
+  background: #1E1E1E !important;
+  border-color: #1E1E1E !important;
+}
+
+footer {
+  background: #1E1E1E;
+}
+/*# sourceMappingURL=style.css.map */
